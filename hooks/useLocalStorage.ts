@@ -22,4 +22,4 @@ export function useLocalStorage(key: string, initialValue) {
   };
 
   return [storedValue, setValue];
-}
+};

@@ -1,0 +1,8 @@
+// For configuration documentation see http://romefrontend.dev/#project-configuration
+name: "hooks"
+lint: {
+	ignore: [
+		".next/"
+]
+}
+root: true
