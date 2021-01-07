@@ -1,6 +1,7 @@
 import {useLocalStorage} from "../hooks/useLocalStorage";
 
 export default function localStorage() {
+	
 	const [name, setName] = useLocalStorage("name", "bob");
 
 	return <div>
